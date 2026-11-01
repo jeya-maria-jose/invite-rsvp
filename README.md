@@ -4,7 +4,7 @@ A mobile-friendly, static GitHub Pages RSVP site for **Sunday, December 20, 2026
 
 Live site: https://jeya-maria-jose.github.io/invite-rsvp/
 
-The page shows only the original invitation image followed by an ivory RSVP form with name and meal preference fields. Olive and gold accents and a soft coastal background match the invitation. The browser title remains **Invite**. Keyboard focus and mobile layouts are supported.
+The page shows only `image-invite.png` followed by an ivory RSVP form with name and meal preference fields. Olive and gold accents and a soft coastal background match the invitation. The browser title remains **Invite**. Keyboard focus and mobile layouts are supported.
 
 ## Preview locally
 
@@ -13,7 +13,7 @@ From this folder, run `python3 -m http.server 8000 --bind 127.0.0.1`, then open 
 ## Publish the website
 
 1. Use the GitHub repository `jeya-maria-jose/invite-rsvp`.
-2. Upload the **contents** of this folder (including `index.html`, `style.css`, `script.js`, `config.js`, and `assets/`) to the repository root.
+2. Upload the **contents** of this folder (including `index.html`, `image-invite.png`, `style.css`, `script.js`, `config.js`, and `assets/`) to the repository root.
 3. In GitHub, open **Settings → Pages** and choose **Deploy from a branch**, branch **main**, folder **/(root)**. Save.
 4. Your page will be available at `https://jeya-maria-jose.github.io/invite-rsvp/` after publishing. The local folder can stay named `jose-chandni-rsvp`; it does not need to match the repository name.
 
@@ -39,7 +39,8 @@ GitHub Pages only serves static files. It **cannot write RSVPs into a CSV or int
 - `index.html`, `style.css`, `script.js`: responsive RSVP website
 - `config.js`: paste the deployed Apps Script URL
 - `google-apps-script.gs`: server-side Sheet writer
-- `assets/invitation.png`: sunny invitation design
+- `image-invite.png`: current invitation displayed on the website
+- `assets/invitation.png`: previous invitation design
 - `assets/beach.png`: beach background detail
 - `assets/design-reference.png`: side-by-side design reference
 - `assets/favicon.svg`: Invite browser icon
